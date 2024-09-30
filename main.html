@@ -13,44 +13,37 @@
     <h2 class="mt-5 text-center">Intern Application Form</h2>
     <form id="intern-form" class="needs-validation" novalidate>
 
-      <!-- Horizontal Fields -->
       <div class="d-flex flex-wrap gap-3 mb-3">
-        <!-- First Name -->
         <div class="flex-fill">
           <label for="first-name-input" class="form-label">First Name</label>
           <input type="text" class="form-control" id="first-name-input" required>
-          <div class="invalid-feedback">Please provide a valid first name.</div>
+          <div class="invalid-feedback">Last name required!.</div>
         </div>
 
-        <!-- Last Name -->
         <div class="flex-fill">
           <label for="last-name-input" class="form-label">Last Name</label>
           <input type="text" class="form-control" id="last-name-input" required>
-          <div class="invalid-feedback">Please provide a valid last name.</div>
+          <div class="invalid-feedback">Last name required!.</div>
         </div>
 
-        <!-- Email -->
         <div class="flex-fill">
           <label for="email-input" class="form-label">Email Address</label> <!-- Updated Label -->
           <input type="email" class="form-control" id="email-input" required>
-          <div class="invalid-feedback">Please provide a valid email address.</div>
+          <div class="invalid-feedback">Email required!.</div>
         </div>
 
-        <!-- College Name -->
         <div class="flex-fill">
           <label for="college-input" class="form-label">College</label> <!-- Updated Label -->
           <input type="text" class="form-control" id="college-input" required>
-          <div class="invalid-feedback">Please provide a valid college name.</div>
+          <div class="invalid-feedback">Please provide a valid college.</div>
         </div>
 
-        <!-- Roll No -->
         <div class="flex-fill">
           <label for="roll-no-input" class="form-label">Roll No.</label> <!-- Updated Label -->
           <input type="text" class="form-control" id="roll-no-input" required>
           <div class="invalid-feedback">Please provide a valid roll number.</div>
         </div>
 
-        <!-- Graduation Year -->
         <div class="flex-fill">
           <label for="grad-year-select" class="form-label">Graduation Year</label> <!-- Updated for ID -->
           <select class="form-select" id="grad-year-select" required> <!-- Updated ID -->
@@ -60,18 +53,16 @@
             <option value="2022">2022</option>
             <option value="2023">2023</option>
           </select>
-          <div class="invalid-feedback">Please select a graduation year.</div>
+          <div class="invalid-feedback">Please select a valid graduation year.</div>
         </div>
       </div>
 
-      <!-- Conditions Checkbox -->
       <div class="mb-3">
         <input type="checkbox" class="form-check-input" id="conditions-checkbox" required>
-        <label class="form-check-label" for="conditions-checkbox">I agree to the terms and conditions</label>
+        <label class="form-check-label" for="conditions-checkbox">Agree to the terms and conditions</label>
         <div class="invalid-feedback">You must agree before submitting.</div>
       </div>
 
-      <!-- Submit Button -->
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
